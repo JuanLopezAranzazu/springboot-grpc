@@ -1,4 +1,4 @@
-package com.juanlopezaranzazu.springboot_grpc.service;
+package com.juanlopezaranzazu.springboot_grpc.grpc;
 
 
 import org.springframework.grpc.server.service.GrpcService;
