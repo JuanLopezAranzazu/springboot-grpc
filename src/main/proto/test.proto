@@ -2,6 +2,10 @@ syntax = "proto3";
 
 package test;
 
+option java_multiple_files = true;
+option java_package = "com.juanlopezaranzazu.grpc";
+option java_outer_classname = "TestProto";
+
 service TestService {
   rpc Ping (PingRequest) returns (PingResponse);
 }
